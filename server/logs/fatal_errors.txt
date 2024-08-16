@@ -1,0 +1,374 @@
+
+-------------- Fatal Error -------------
+Trace ID: FE_1696422501402
+Date: 2023-10-04 14:28:21
+Request type: GET
+Request: {"controller":"Garages_Controller","method":"getRecordById","params":{"id":"651d5198f3163f9d7b23ccc86"}}
+Error Message: Undefined array key "INVALID_DATA_TYPES"
+Error File: E:\GitHub\Cars-Dashboard-Warning-Lights\server\controllers\Garages_Controller.php(52)
+----------------------------------------
+
+-------------- Fatal Error -------------
+Trace ID: FE_1696422539023
+Date: 2023-10-04 14:28:59
+Request type: GET
+Request: {"controller":"Garages_Controller","method":"getRecordById"}
+Error Message: Undefined array key "MISSING_REQUEST_PARAMS"
+Error File: E:\GitHub\Cars-Dashboard-Warning-Lights\server\controllers\Garages_Controller.php(42)
+----------------------------------------
+
+-------------- Fatal Error -------------
+Trace ID: FE_1696422924111
+Date: 2023-10-04 14:35:24
+Request type: GET
+Request: {"controller":"Mechanics_Controller","method":"getAllRecords"}
+Error Message: Uncaught Error: Call to a member function getAllRecords() on null in E:\GitHub\Cars-Dashboard-Warning-Lights\server\controllers\Mechanics_Controller.php:16
+Stack trace:
+#0 E:\GitHub\Cars-Dashboard-Warning-Lights\server\classes\Application.php(50): Mechanics_Controller->getAllRecords()
+#1 E:\GitHub\Cars-Dashboard-Warning-Lights\server\index.php(45): Application->execute()
+#2 {main}
+  thrown in E:\GitHub\Cars-Dashboard-Warning-Lights\server\controllers\Mechanics_Controller.php on line 16
+Error File: E:\GitHub\Cars-Dashboard-Warning-Lights\server\controllers\Mechanics_Controller.php(16)
+----------------------------------------
+
+-------------- Fatal Error -------------
+Trace ID: FE_1696422941291
+Date: 2023-10-04 14:35:41
+Request type: GET
+Request: {"controller":"Mechanics_Controller","method":"getAllRecords"}
+Error Message: Uncaught Error: Call to a member function getAllRecords() on null in E:\GitHub\Cars-Dashboard-Warning-Lights\server\controllers\Mechanics_Controller.php:16
+Stack trace:
+#0 E:\GitHub\Cars-Dashboard-Warning-Lights\server\classes\Application.php(50): Mechanics_Controller->getAllRecords()
+#1 E:\GitHub\Cars-Dashboard-Warning-Lights\server\index.php(45): Application->execute()
+#2 {main}
+  thrown in E:\GitHub\Cars-Dashboard-Warning-Lights\server\controllers\Mechanics_Controller.php on line 16
+Error File: E:\GitHub\Cars-Dashboard-Warning-Lights\server\controllers\Mechanics_Controller.php(16)
+----------------------------------------
+
+-------------- Fatal Error -------------
+Trace ID: FE_1696423063957
+Date: 2023-10-04 14:37:43
+Request type: GET
+Request: {"controller":"Mechanics_Controller","method":"getAllRecords"}
+Error Message: Undefined variable $ERROR_CODES
+Error File: E:\GitHub\Cars-Dashboard-Warning-Lights\server\controllers\Mechanics_Controller.php(22)
+----------------------------------------
+
+-------------- Fatal Error -------------
+Trace ID: FE_1696458462355
+Date: 2023-10-05 00:27:42
+Request type: GET
+Request: {"controller":"Stats_Controller","method":"getAllRecords"}
+Error Message: syntax error, unexpected token "!" in E:\GitHub\Cars-Dashboard-Warning-Lights\server\controllers\Stats_Controller.php on line 36
+Error File: E:\GitHub\Cars-Dashboard-Warning-Lights\server\controllers\Stats_Controller.php(36)
+----------------------------------------
+
+-------------- Fatal Error -------------
+Trace ID: FE_1696458473202
+Date: 2023-10-05 00:27:53
+Request type: GET
+Request: {"controller":"Stats_Controller","method":"getAllRecords"}
+Error Message: Attempt to read property "errors" on array
+Error File: E:\GitHub\Cars-Dashboard-Warning-Lights\server\controllers\Stats_Controller.php(34)
+----------------------------------------
+
+-------------- Fatal Error -------------
+Trace ID: FE_1696458499637
+Date: 2023-10-05 00:28:19
+Request type: GET
+Request: {"controller":"Stats_Controller","method":"getAllRecords"}
+Error Message: Attempt to read property "errors" on array
+Error File: E:\GitHub\Cars-Dashboard-Warning-Lights\server\controllers\Stats_Controller.php(35)
+----------------------------------------
+
+-------------- Fatal Error -------------
+Trace ID: FE_1696458517569
+Date: 2023-10-05 00:28:37
+Request type: GET
+Request: {"controller":"Stats_Controller","method":"getAllRecords"}
+Error Message: Attempt to read property "errors" on array
+Error File: E:\GitHub\Cars-Dashboard-Warning-Lights\server\controllers\Stats_Controller.php(32)
+----------------------------------------
+
+-------------- Fatal Error -------------
+Trace ID: FE_1696458557933
+Date: 2023-10-05 00:29:17
+Request type: GET
+Request: {"controller":"Stats_Controller","method":"getAllRecords"}
+Error Message: Attempt to read property "errors" on array
+Error File: E:\GitHub\Cars-Dashboard-Warning-Lights\server\controllers\Stats_Controller.php(33)
+----------------------------------------
+
+-------------- Fatal Error -------------
+Trace ID: FE_1696458569213
+Date: 2023-10-05 00:29:29
+Request type: GET
+Request: {"controller":"Stats_Controller","method":"getAllRecords"}
+Error Message: Attempt to read property "errors" on array
+Error File: E:\GitHub\Cars-Dashboard-Warning-Lights\server\controllers\Stats_Controller.php(37)
+----------------------------------------
+
+-------------- Fatal Error -------------
+Trace ID: FE_1696458581098
+Date: 2023-10-05 00:29:41
+Request type: GET
+Request: {"controller":"Stats_Controller","method":"getAllRecords"}
+Error Message: Attempt to read property "errors" on array
+Error File: E:\GitHub\Cars-Dashboard-Warning-Lights\server\controllers\Stats_Controller.php(37)
+----------------------------------------
+
+-------------- Fatal Error -------------
+Trace ID: FE_1696458588148
+Date: 2023-10-05 00:29:48
+Request type: GET
+Request: {"controller":"Stats_Controller","method":"getAllRecords"}
+Error Message: Attempt to read property "errors" on array
+Error File: E:\GitHub\Cars-Dashboard-Warning-Lights\server\controllers\Stats_Controller.php(37)
+----------------------------------------
+
+-------------- Fatal Error -------------
+Trace ID: FE_1696458603183
+Date: 2023-10-05 00:30:03
+Request type: GET
+Request: {"controller":"Stats_Controller","method":"getAllRecords"}
+Error Message: Attempt to read property "errors" on array
+Error File: E:\GitHub\Cars-Dashboard-Warning-Lights\server\controllers\Stats_Controller.php(33)
+----------------------------------------
+
+-------------- Fatal Error -------------
+Trace ID: FE_1697293331357
+Date: 2023-10-14 14:22:11
+Request type: GET
+Request: {"controller":"Cars_Controller","method":"getAllRecords"}
+Error Message: Uncaught Error: Class "MongoDB\Driver\Manager" not found in E:\GitHub\Cars-Dashboard-Warning-Lights\server\vendor\mongodb\mongodb\src\Client.php:124
+Stack trace:
+#0 E:\GitHub\Cars-Dashboard-Warning-Lights\server\classes\MongoDBHandler.php(10): MongoDB\Client->__construct('mongodb+srv://m...')
+#1 E:\GitHub\Cars-Dashboard-Warning-Lights\server\models\Cars_Model.php(20): MongoDBHandler->__construct()
+#2 E:\GitHub\Cars-Dashboard-Warning-Lights\server\controllers\Controller.php(26): Cars_Model->__construct()
+#3 E:\GitHub\Cars-Dashboard-Warning-Lights\server\controllers\Cars_Controller.php(15): Controller->setModel('Cars_Model')
+#4 E:\GitHub\Cars-Dashboard-Warning-Lights\server\classes\Application.php(50): Cars_Controller->getAllRecords()
+#5 E:\GitHub\Cars-Dashboard-Warning-Lights\server\index.php(47): Application->execute()
+#6 {main}
+  thrown in E:\GitHub\Cars-Dashboard-Warning-Lights\server\vendor\mongodb\mongodb\src\Client.php on line 124
+Error File: E:\GitHub\Cars-Dashboard-Warning-Lights\server\vendor\mongodb\mongodb\src\Client.php(124)
+----------------------------------------
+
+-------------- Fatal Error -------------
+Trace ID: FE_1697390622201
+Date: 2023-10-15 17:23:42
+Request type: GET
+Request: {"controller":"Stats_Controller","method":"getAllRecords"}
+Error Message: Attempt to read property "errors" on array
+Error File: E:\GitHub\Cars-Dashboard-Warning-Lights\server\controllers\Stats_Controller.php(41)
+----------------------------------------
+
+-------------- Fatal Error -------------
+Trace ID: FE_1697390634971
+Date: 2023-10-15 17:23:54
+Request type: GET
+Request: {"controller":"Stats_Controller","method":"getAllRecords"}
+Error Message: Attempt to read property "errors" on array
+Error File: E:\GitHub\Cars-Dashboard-Warning-Lights\server\controllers\Stats_Controller.php(41)
+----------------------------------------
+
+-------------- Fatal Error -------------
+Trace ID: FE_1697390639579
+Date: 2023-10-15 17:23:59
+Request type: GET
+Request: {"controller":"Stats_Controller","method":"getAllRecords"}
+Error Message: Attempt to read property "errors" on array
+Error File: E:\GitHub\Cars-Dashboard-Warning-Lights\server\controllers\Stats_Controller.php(41)
+----------------------------------------
+
+-------------- Fatal Error -------------
+Trace ID: FE_1697390659549
+Date: 2023-10-15 17:24:19
+Request type: GET
+Request: {"controller":"Stats_Controller","method":"getAllRecords"}
+Error Message: Attempt to read property "errors" on array
+Error File: E:\GitHub\Cars-Dashboard-Warning-Lights\server\controllers\Stats_Controller.php(41)
+----------------------------------------
+
+-------------- Fatal Error -------------
+Trace ID: FE_1697390662600
+Date: 2023-10-15 17:24:22
+Request type: GET
+Request: {"controller":"Stats_Controller","method":"getAllRecords"}
+Error Message: Attempt to read property "errors" on array
+Error File: E:\GitHub\Cars-Dashboard-Warning-Lights\server\controllers\Stats_Controller.php(41)
+----------------------------------------
+
+-------------- Fatal Error -------------
+Trace ID: FE_1697390894839
+Date: 2023-10-15 17:28:14
+Request type: GET
+Request: {"controller":"Stats_Controller","method":"getAllRecords"}
+Error Message: Attempt to read property "errors" on array
+Error File: E:\GitHub\Cars-Dashboard-Warning-Lights\server\controllers\Stats_Controller.php(41)
+----------------------------------------
+
+-------------- Fatal Error -------------
+Trace ID: FE_1697390947146
+Date: 2023-10-15 17:29:07
+Request type: GET
+Request: {"controller":"Stats_Controller","method":"getAllRecords"}
+Error Message: Attempt to read property "errors" on array
+Error File: E:\GitHub\Cars-Dashboard-Warning-Lights\server\controllers\Stats_Controller.php(41)
+----------------------------------------
+
+-------------- Fatal Error -------------
+Trace ID: FE_1697391013891
+Date: 2023-10-15 17:30:13
+Request type: GET
+Request: {"controller":"Stats_Controller","method":"getAllRecords"}
+Error Message: Attempt to read property "errors" on array
+Error File: E:\GitHub\Cars-Dashboard-Warning-Lights\server\controllers\Stats_Controller.php(46)
+----------------------------------------
+
+-------------- Fatal Error -------------
+Trace ID: FE_1697391053779
+Date: 2023-10-15 17:30:53
+Request type: GET
+Request: {"controller":"Stats_Controller","method":"getAllRecords"}
+Error Message: Undefined array key "errors"
+Error File: E:\GitHub\Cars-Dashboard-Warning-Lights\server\controllers\Stats_Controller.php(46)
+----------------------------------------
+
+-------------- Fatal Error -------------
+Trace ID: FE_1697392507674
+Date: 2023-10-15 17:55:07
+Request type: GET
+Request: {"controller":"Cars_Controller","method":"deleteRecord","params":{"id":"1231"}}
+Error Message: Uncaught MongoDB\Driver\Exception\InvalidArgumentException: Error parsing ObjectId string: 1231 in E:\GitHub\Cars-Dashboard-Warning-Lights\server\models\Cars_Model.php:153
+Stack trace:
+#0 E:\GitHub\Cars-Dashboard-Warning-Lights\server\models\Cars_Model.php(153): MongoDB\BSON\ObjectId->__construct('1231')
+#1 E:\GitHub\Cars-Dashboard-Warning-Lights\server\controllers\Cars_Controller.php(199): Cars_Model->deleteRecord('1231')
+#2 E:\GitHub\Cars-Dashboard-Warning-Lights\server\classes\Application.php(53): Cars_Controller->deleteRecord()
+#3 E:\GitHub\Cars-Dashboard-Warning-Lights\server\index.php(45): Application->execute()
+#4 {main}
+  thrown in E:\GitHub\Cars-Dashboard-Warning-Lights\server\models\Cars_Model.php on line 153
+Error File: E:\GitHub\Cars-Dashboard-Warning-Lights\server\models\Cars_Model.php(153)
+----------------------------------------
+
+-------------- Fatal Error -------------
+Trace ID: FE_1697392524912
+Date: 2023-10-15 17:55:24
+Request type: GET
+Request: {"controller":"Cars_Controller","method":"deleteRecord","params":{"id":"64fee803195efc210d79b0b41"}}
+Error Message: Uncaught MongoDB\Driver\Exception\InvalidArgumentException: Error parsing ObjectId string: 64fee803195efc210d79b0b41 in E:\GitHub\Cars-Dashboard-Warning-Lights\server\models\Cars_Model.php:153
+Stack trace:
+#0 E:\GitHub\Cars-Dashboard-Warning-Lights\server\models\Cars_Model.php(153): MongoDB\BSON\ObjectId->__construct('64fee803195efc2...')
+#1 E:\GitHub\Cars-Dashboard-Warning-Lights\server\controllers\Cars_Controller.php(199): Cars_Model->deleteRecord('64fee803195efc2...')
+#2 E:\GitHub\Cars-Dashboard-Warning-Lights\server\classes\Application.php(53): Cars_Controller->deleteRecord()
+#3 E:\GitHub\Cars-Dashboard-Warning-Lights\server\index.php(45): Application->execute()
+#4 {main}
+  thrown in E:\GitHub\Cars-Dashboard-Warning-Lights\server\models\Cars_Model.php on line 153
+Error File: E:\GitHub\Cars-Dashboard-Warning-Lights\server\models\Cars_Model.php(153)
+----------------------------------------
+
+-------------- Fatal Error -------------
+Trace ID: FE_1697396214763
+Date: 2023-10-15 18:56:54
+Request type: GET
+Request: {"controller":"Suggestions_Controller","method":"getAllRecords"}
+Error Message: Undefined property: SuggestionsOptions_Model::$collection
+Error File: E:\GitHub\Cars-Dashboard-Warning-Lights\server\models\SuggestionsOptions_Model.php(57)
+----------------------------------------
+
+-------------- Fatal Error -------------
+Trace ID: FE_1697396246421
+Date: 2023-10-15 18:57:26
+Request type: GET
+Request: {"controller":"Suggestions_Controller","method":"getAllRecords"}
+Error Message: Undefined property: SuggestionsOptions_Model::$collection
+Error File: E:\GitHub\Cars-Dashboard-Warning-Lights\server\models\SuggestionsOptions_Model.php(57)
+----------------------------------------
+
+-------------- Fatal Error -------------
+Trace ID: FE_1697397007510
+Date: 2023-10-15 19:10:07
+Request type: GET
+Request: {"controller":"Suggestions_Controller","params":{"category":"name"}}
+Error Message: Undefined array key "method"
+Error File: E:\GitHub\Cars-Dashboard-Warning-Lights\server\index.php(44)
+----------------------------------------
+
+-------------- Fatal Error -------------
+Trace ID: FE_1697397020922
+Date: 2023-10-15 19:10:20
+Request type: GET
+Request: {"controller":"Suggestions_Controller","params":{"category":"name"}}
+Error Message: Undefined array key "method"
+Error File: E:\GitHub\Cars-Dashboard-Warning-Lights\server\index.php(44)
+----------------------------------------
+
+-------------- Fatal Error -------------
+Trace ID: FE_1697397030400
+Date: 2023-10-15 19:10:30
+Request type: GET
+Request: {"controller":"Suggestions_Controller","params":{"category":"name","description":"123"}}
+Error Message: Undefined array key "method"
+Error File: E:\GitHub\Cars-Dashboard-Warning-Lights\server\index.php(44)
+----------------------------------------
+
+-------------- Fatal Error -------------
+Trace ID: FE_1697397224078
+Date: 2023-10-15 19:13:44
+Request type: GET
+Request: {"controller":"Suggestions_Controller","method":"createNewRecord","params":{"category":"name","description":"test"}}
+Error Message: Undefined property: Suggestions_Model::$columns
+Error File: E:\GitHub\Cars-Dashboard-Warning-Lights\server\controllers\Suggestions_Controller.php(39)
+----------------------------------------
+
+-------------- Fatal Error -------------
+Trace ID: FE_1697397280503
+Date: 2023-10-15 19:14:40
+Request type: GET
+Request: {"controller":"Suggestions_Controller","method":"createNewRecord","params":{"category":"name","description":"123"}}
+Error Message: Undefined property: Suggestions_Model::$collection
+Error File: E:\GitHub\Cars-Dashboard-Warning-Lights\server\models\Suggestions_Model.php(68)
+----------------------------------------
+
+-------------- Fatal Error -------------
+Trace ID: FE_1697397832915
+Date: 2023-10-15 19:23:52
+Request type: GET
+Request: {"controller":"Suggestions_Controller","method":"getAllRecords"}
+Error Message: Uncaught Error: Call to undefined method Suggestions_Model::getAllRecords() in E:\GitHub\Cars-Dashboard-Warning-Lights\server\controllers\Suggestions_Controller.php:16
+Stack trace:
+#0 E:\GitHub\Cars-Dashboard-Warning-Lights\server\classes\Application.php(53): Suggestions_Controller->getAllRecords()
+#1 E:\GitHub\Cars-Dashboard-Warning-Lights\server\index.php(45): Application->execute()
+#2 {main}
+  thrown in E:\GitHub\Cars-Dashboard-Warning-Lights\server\controllers\Suggestions_Controller.php on line 16
+Error File: E:\GitHub\Cars-Dashboard-Warning-Lights\server\controllers\Suggestions_Controller.php(16)
+----------------------------------------
+
+-------------- Fatal Error -------------
+Trace ID: FE_1697397903890
+Date: 2023-10-15 19:25:03
+Request type: GET
+Request: {"controller":"Suggestions_Controller","method":"getAllRecords"}
+Error Message: Uncaught Error: Call to undefined function setErrorVariable() in E:\GitHub\Cars-Dashboard-Warning-Lights\server\models\Suggestions_Model.php:91
+Stack trace:
+#0 E:\GitHub\Cars-Dashboard-Warning-Lights\server\controllers\Suggestions_Controller.php(16): Suggestions_Model->getAllRecords()
+#1 E:\GitHub\Cars-Dashboard-Warning-Lights\server\classes\Application.php(53): Suggestions_Controller->getAllRecords()
+#2 E:\GitHub\Cars-Dashboard-Warning-Lights\server\index.php(45): Application->execute()
+#3 {main}
+  thrown in E:\GitHub\Cars-Dashboard-Warning-Lights\server\models\Suggestions_Model.php on line 91
+Error File: E:\GitHub\Cars-Dashboard-Warning-Lights\server\models\Suggestions_Model.php(91)
+----------------------------------------
+
+-------------- Fatal Error -------------
+Trace ID: FE_1697397927831
+Date: 2023-10-15 19:25:27
+Request type: GET
+Request: {"controller":"Suggestions_Controller","method":"getAllRecords"}
+Error Message: Uncaught Error: Call to undefined function setErrorVariable() in E:\GitHub\Cars-Dashboard-Warning-Lights\server\models\Suggestions_Model.php:91
+Stack trace:
+#0 E:\GitHub\Cars-Dashboard-Warning-Lights\server\controllers\Suggestions_Controller.php(16): Suggestions_Model->getAllRecords()
+#1 E:\GitHub\Cars-Dashboard-Warning-Lights\server\classes\Application.php(53): Suggestions_Controller->getAllRecords()
+#2 E:\GitHub\Cars-Dashboard-Warning-Lights\server\index.php(45): Application->execute()
+#3 {main}
+  thrown in E:\GitHub\Cars-Dashboard-Warning-Lights\server\models\Suggestions_Model.php on line 91
+Error File: E:\GitHub\Cars-Dashboard-Warning-Lights\server\models\Suggestions_Model.php(91)
+----------------------------------------
